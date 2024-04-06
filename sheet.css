@@ -253,3 +253,74 @@ nav li a
 #docu a {
     color : white;
 }
+
+#galerie
+    {
+        width : 990px;
+        margin-right: 10px;
+        padding: 17px;
+
+        background-color: #242424;
+    }
+
+
+#galerie p
+{
+    color: #FFF;
+}
+
+.imggalerie
+{
+    width : 100%;
+    margin-bottom : 20px;
+}
+
+#contact
+    {
+        width : 990px;
+        margin-right: 10px;
+        padding: 17px;
+
+        background-color: #242424;
+    }
+
+
+#contact p
+{
+    color: #FFF;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom : 20px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color : white;
+    margin-bottom : 20px;
+  }
+  
