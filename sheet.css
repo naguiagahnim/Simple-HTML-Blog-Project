@@ -1,3 +1,5 @@
+/*Reset CSS*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,112 +13,194 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-h1{
-    color : white;
-    font-size: 25px;
+/*Global*/
+html
+{
+background-color: #000;
 }
 
-body{
-    background-color: black;
+#container
+{
+width: 80%;
+max-width: 1024px;
+margin: auto;
 }
 
-#divmain{
-    width : 55%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
+h1
+{
+color: #FFF;
+font-size: 30px;
+
+margin-bottom: 30px;
 }
 
-#bannerpc{
-    margin-top : 20px;
-    margin-bottom: 20px;
+h2
+{
+color: #FFF;
+font-size: 20px;
+
+margin-bottom: 30px;
 }
 
-#menu a{
-    float: left;
-    color: #ffffff;
-    background-color: rgba(36,36,36,255);
+p
+{
+margin-bottom: 10px;
+}
+
+/*Titre*/
+#title
+{
+    color: #FFF;
+    font-size: 30px;
+    
+    margin: 20px 0px;
+}
+
+/*Bannière*/
+#banner{
+width: 100%;
+height: 120px;
+  object-fit: cover;
+}	
+
+/*Menu*/
+nav
+{
+    background-color: #242424;
+    margin: 20px 0px;
+}
+
+nav ul
+{
     text-align: center;
-    font-size: 17px;
-    width: 170.58px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 30px;
 }
 
-p{
-    color : white;
-    padding-top: 15px;
-    padding-left : 15px;
+nav li
+{
+    display: inline;
 }
 
-h2{
-    font-weight: bold;
-    color : white;
-    font-size: 18px;
-    margin-top : 30px;
-    margin-bottom: 30px;
-    padding-left : 15px;
+nav li a
+{
+    display: inline-block;
+    width: 16%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+
+    color: #fff;
+    text-decoration: none;
+
 }
 
-#divp{
-    width : 70%;
-    background-color: rgba(36,36,36,255);
-    float: left;
-}
+/*Content*/
 
-#blocktxt ul{
-    color : white;
-    padding-left : 15px;
-}
+/*histoire*/
+    #histoire
+    {
+        width : 990px;
+        margin-right: 10px;
+        padding: 17px;
 
-#blocktxt li{
-    color : white;
-    padding-bottom : 5px;
-}
+        background-color: #242424;
+    }
 
-#blocktxt{
-    width: 30%;
+
+    #histoire p
+    {
+        color: #FFF;
+    }
+
+/*Right part*/
+#rightPart
+{
+    width: calc(25% - 44px);
     float: right;
-    background-color: rgba(36,36,36,255);
+
+    margin-left: 10px;
+    padding: 17px;
+
+    background-color: #242424;
 }
 
-a{
+#actuList a
+{
+    text-align: center;
+
+    color: #fff;
     text-decoration: none;
 }
 
-#blocktxt a{
+/*Left part*/
+#leftPart
+{
+    width: calc(75% - 44px);
+    float: left;
+
+    margin-right: 10px;
+    padding: 17px;
+
+    background-color: #242424;
+}
+
+
+#leftPart p
+{
+    color: #FFF;
+}
+
+.divarticle{
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    width : 50%;
+    clear : both;
+}
+
+.imgarticle{
+    width : 50%;
+    margin-bottom : 10px;
+}
+
+.imgarticle2{
+    width : 58%;
+    margin-bottom : 10px;
+}
+
+.lienarticle{
     color : white;
-    text-decoration: none;
+    font-weight : bold;
 }
