@@ -181,17 +181,31 @@ nav li a
     color: #FFF;
 }
 
-.divarticle{
+.divarticle {
     box-sizing: border-box;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    width : 50%;
-    clear : both;
+    width: 45%; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin-bottom: 50px; 
+    padding: 0; 
+    border: none; 
+}
+
+#divgrandarticle {
+    text-align: center; 
+}
+
+.divarticle:last-child {
+    margin-right: 0; 
 }
 
 .imgarticle{
     width : 50%;
+    margin-bottom : 10px;
+}
+
+.imgarticle3{
+    width : 72%;
     margin-bottom : 10px;
 }
 
@@ -203,4 +217,39 @@ nav li a
 .lienarticle{
     color : white;
     font-weight : bold;
+}
+
+
+#divgrandarticle
+{
+    width : 990px;
+    margin-right: 10px;
+    padding: 17px;
+
+    background-color: #242424;
+}
+
+
+#divgrandarticle p
+{
+    color: #FFF;
+}
+
+#docu
+    {
+        width : 990px;
+        margin-right: 10px;
+        padding: 17px;
+
+        background-color: #242424;
+    }
+
+
+#docu p
+{
+    color: #FFF;
+}
+
+#docu a {
+    color : white;
 }
